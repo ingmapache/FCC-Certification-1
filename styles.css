@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #724C9D;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#survey-form {
+    width: 500px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+h1, #description {
+    text-align: center;    
+}
+
+#description {
+    margin: 10px;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0 .5rem 0;
+    color: #FFFFFF;
+}
+
+input, select {
+    width: 100%;
+    padding: 0;
+    height: 30px;
+    border: 2px solid;
+    border-color: #2C1B47;
+    box-sizing: border-box;
+    margin: .2rem 0;
+}
+
+input {
+    background-color: #ffffff;
+    color: #2B2435;
+}
+
+p[id="sma"] {
+    color:#ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cajabg {
+    background-color: #2B2435;
+    width: 550px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.inline {
+    display: inline;
+    height: 20px;
+    width: unset;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+
+.optext {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+input[type="submit"] {
+    display: block;
+    width: unset;
+    width: 45%;
+    background-color: #ffffff;
+    color: black;
+    margin: 0 auto;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+
